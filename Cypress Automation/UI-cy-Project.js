@@ -8,7 +8,7 @@ describe('UI Element', function()
 
         cy.get('#login > a').click()
         cy.get('#logInClick > .ui-button-text').click()
-        cy.get('input[id="logInEmail"]').type("mdrajibbhuiyan77@gmail.com")
+        cy.get('input[id="logInEmail"]').type("email")
         cy.get('input[id="logInPassword"]').type("13142103134")
         cy.get('#logInClick > .ui-button-text').click()
 
